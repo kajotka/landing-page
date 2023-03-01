@@ -54,15 +54,11 @@ a:hover {
     padding-left: 33px;
 }
 
-/* img {
-    width: 243px;
-    height: 243px;
-} */
 
 .aboutme {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     padding-top: 140px;
     padding-right: 149px;
     padding-left: 148px;
