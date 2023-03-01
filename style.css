@@ -14,6 +14,15 @@
 body {
     font-family: 'Heebo', sans-serif;
     color: var(--dark);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.posts a {
+    padding-right: 5px;
 }
 
 .container {
@@ -28,8 +37,7 @@ body {
     margin-right: 60px;
 }
 
-a {
-    text-decoration: none;
+.links a {
     color: var(--dark);
     font-size: 20px;
     line-height: 29px;
@@ -62,7 +70,10 @@ h1 {
 }
 
 p {
-    line-height: 24px;
+    line-height: 23.5px;
+}
+
+.describe p {
     padding-bottom: 38px;
 }
 
@@ -88,7 +99,94 @@ button {
     padding-left: 148px;
 }
 
-#recentpost {
+.inscription {
     font-size: 22px;
-    font-weight: 60px;
+    padding-bottom: 22px;
+    padding-left: 8px;
+}
+
+.posts a {
+    color: var(--secondry);
+    line-height: 23.5px;
+}
+
+.blog-entries {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 149px;
+    padding-left: 148px;
+}
+
+.entries {
+    width: 394px;
+    height: 295px;
+    background-color: white;
+    padding-left: 21px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    padding-top: 22px;
+}
+
+h3 {
+    font-size: 18px;
+    padding-top: 17px;
+    padding-bottom: 11px;
+    line-height: 26px;
+}
+
+.featuredworks {
+    padding-left: 148px;
+    padding-top: 22px;
+}
+
+.works {
+display: flex;
+}
+
+.heading {
+font-size: 30px;
+font-weight: 700;
+line-height: 44px;
+padding-bottom: 20px;
+}
+
+.year {
+    background-color: #142850;
+    border-radius: 16px;
+    width: 62px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.article-body {
+padding-left: 18px;
+}
+
+.vector {
+    width: 858px;
+height: 0px;
+border: 1px solid #E0E0E0;
+margin-top: 15px;
+margin-bottom: 31px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    margin: 134px 430px 26px 430px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20.5px;
+    margin-bottom: 54px;
 }
