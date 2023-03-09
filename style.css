@@ -198,6 +198,10 @@ h3 {
     margin: 134px 430px 26px 430px;
 }
 
+.pictures img {
+    cursor: pointer;
+}
+
 .footer {
     text-align: center;
     font-size: 14px;
